@@ -1,0 +1,26 @@
+ul.striped-list > li:nth-of-type(odd) {
+  background-color: #e9e9f9 ;
+}
+
+ul.striped-list > li {
+  border-bottom: 1px solid rgb(221,221,221);
+  padding: 6px;
+}
+
+ul.striped-list > li:last-child {
+  border-bottom: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checkout-table {
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.checkout-btn {
+  margin-bottom: 10px;
+}
